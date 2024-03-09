@@ -6,3 +6,4 @@ repos:
         entry: python my_local_hooks/myscript.py
         language: system
         files: ''
+        exclude: (\.bad|\.gitignore)
